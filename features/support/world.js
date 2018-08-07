@@ -21,7 +21,6 @@ var buildDriver = function () {
     }
 };
 
-
 var World = function World() {
 
     var screenshotPath = "screenShots";
