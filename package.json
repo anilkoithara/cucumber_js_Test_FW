@@ -1,0 +1,27 @@
+{
+  "name": "autofw",
+  "version": "1.0.0",
+  "description": "cucumber javascript prallel test",
+  "main": "index.js",
+  "scripts": {
+    "cucumber": "./node_modules/.bin/cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anilkoithara/cucumber_js_Test_FW"
+  },
+  "keywords": [
+    "Selenium",
+    "testing",
+    "cucumber"
+  ],
+  "author": "Anil Mathew",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chromedriver": "^2.41.0",
+    "cucumber": "^4.2.1",
+    "install": "^0.12.1",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
