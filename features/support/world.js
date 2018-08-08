@@ -1,6 +1,6 @@
-var {setDefaultTimeout, setWorldConstructor} = require('cucumber');
-var {Builder} = require('selenium-webdriver');
-var fs = require('fs');
+const {setDefaultTimeout, setWorldConstructor} = require('cucumber');
+const {Builder} = require('selenium-webdriver');
+const fs = require('fs');
 
 var platform = process.env.PLATFORM || "CHROME";
 

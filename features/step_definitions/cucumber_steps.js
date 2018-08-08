@@ -1,6 +1,6 @@
-var { Given, When,Then } = require('cucumber');
-var { By, until, Key } = require('selenium-webdriver');
-var { expect } = require('chai');
+const { Given, When,Then } = require('cucumber');
+const { By, until, Key } = require('selenium-webdriver');
+const { expect } = require('chai');
 
 Given('I navigate to google search page', function (callback) {
   this.driver.get('http://www.google.co.uk/webhp?complete=0');
