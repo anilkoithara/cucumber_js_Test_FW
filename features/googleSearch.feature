@@ -1,4 +1,4 @@
-
+@cucumber
 Feature: Searching for cucumbers.io
 
     Scenario: Google cucumber search
